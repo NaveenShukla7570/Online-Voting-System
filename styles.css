@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+  /* background-image: url("https://www.upscprep.com/content/images/size/w1200/2024/02/political-parties.webp");
+  z-index: -1; */
+}
+
+.container {   
+  margin-left: 476px;
+  margin-top: -780px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 8px 14px 5px rgb(23 23 22 / 39%);
+  text-align: center;
+  width: 638px;
+  position: relative;
+  opacity: 0.9999999;
+  border: 1px solid;
+}
+
+h1 {
+  color: red;
+  background-color: #ffff00bf;
+  border-radius: 7px;
+}
+
+p{
+
+  color: rgba(0, 0, 0, 0.927);
+  font-size: 21px;
+  border-bottom: 1px solid;
+
+}
+
+.party-list {
+  margin-bottom: 20px;
+  font: size 250px; ;
+}
+
+.party {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 21px;
+}
+
+.flag {
+  width: 70px;
+  height: 40px;
+  margin-right: 10px;
+
+  background-color: 50%;
+}
+
+button {
+  padding: 10px 150px;
+  background-color: red;
+  color: rgb(255 255 255);
+  font-size: large;
+  border: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 9px;
+  cursor: pointer;
+}
+  
+button:hover {
+  background-color:red;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #555;
+}
+.aman .nav img{
+    opacity: 0.3;
+    height: 54rem;
+    width: 94rem;
+    position: static;
+}

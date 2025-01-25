@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Voting System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="aman">
+        <div class="nav">
+    <img src="https://www.upscprep.com/content/images/size/w1200/2024/02/political-parties.webp" alt="">
+</div>
+  <div class="container">
+    <h1>Indian Political Parties Online Voting System</h1>
+    <br>
+    <p>Cast your vote for your preferred political party!</p>
+     <br>
+     
+    <div class="party-list">
+      <form id="voteForm">
+        <div class="party">
+          <label>
+            <input type="radio" name="party" value="BJP">
+            <img src="	https://th.bing.com/th/id/OIP.mzdVa-Z8g_NjUyk_OMhelAHaE8?rs=1&pid=ImgDetMain" alt="BJP" class="flag">
+            BJP (Bharatiya Janata Party)
+          </label>
+        </div>
+        <br>
+        <div class="party">
+          <label>
+            <input type="radio" name="party" value="INC">
+            <img src="	https://theshillongtimes.com/wp-content/uploads/2024/06/CONGRESS-P-1.jpg"alt="INC" class="flag">
+            INC (Indian National Congress)
+          </label>
+        </div>
+        <br>
+        <div class="party">
+          <label>
+            <input type="radio" name="party" value="AAP">
+            <img src="https://www.logolynx.com/images/logolynx/91/91bda4e634dcc77fcbdba418e5e1100a.jpeg"alt="AAP" class="flag">
+            AAP (Aam Aadmi Party)
+          </label>
+        </div>
+        <br>
+        <div class="party">
+          <label>
+            <input type="radio" name="party" value="SP">
+            <img src="https://images.indianexpress.com/2017/01/sp-logo-7591.jpg?w=759&h=422&imflag=true" alt="SP" class="flag">
+            SP (Samajvadi Party)
+          </label>
+        </div>
+
+        <button type="submit">Submit Vote</button>
+      </form>
+    </div>
+
+    <div id="result" class="result">
+      <h2>Voting Results</h2>
+      <div id="BJP-result">
+        <h3>BJP Votes: <span id="BJP-votes">0</span></h3>
+      </div>
+      <div id="INC-result">
+        <h3>INC Votes: <span id="INC-votes">0</span></h3>
+      </div>
+      <div id="AAP-result">
+        <h3>AAP Votes: <span id="AAP-votes">0</span></h3>
+      </div>
+        <h3>SP Votes: <span id="SP-votes">0</span></h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
